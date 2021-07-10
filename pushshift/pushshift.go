@@ -11,7 +11,7 @@ const (
 	commentsEndpoint   string = "https://api.pushshift.io/reddit/search/comment"
 	sseEndpoint        string = "http://stream.pushshift.io"
 	// HTTPTimeout is the timeout in seconds for the HTTP client
-	HTTPTimeout int = 5
+	HTTPTimeout int = 10
 	// SortAsc is a helper constant to sort ascending
 	SortAsc string = "asc"
 	// SortDesc is a helper constant to sort ascending
