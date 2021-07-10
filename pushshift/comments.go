@@ -43,6 +43,7 @@ type CommentQuery struct {
 	UTCHourOfWeek       int    `url:"utc_hour_of_week,omitempty" json:"utc_hour_of_week,omitempty"`
 	LinkID              int    `url:"link_id,omitempty" json:"link_id,omitempty"`
 	ParentID            int    `url:"parent_id,omitempty" json:"parent_id,omitempty"`
+	Size                int    `url:"size,omitempty" json:"size,omitempty"`
 }
 
 // CommentGildings is a placeholder for gilded comments
