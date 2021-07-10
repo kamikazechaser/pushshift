@@ -1,4 +1,4 @@
-module github.com/mfdeux/pushshift
+module github.com/kamikazechaser/pushshift
 
 go 1.12
 
